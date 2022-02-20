@@ -3,4 +3,22 @@
   line-height: 14px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
+  margin-top: 8px;
+  text-align: left;
 }
+
+
+@media screen and (max-width: 1023px) {
+  .lead__caption {
+    margin-left: 24px;
+    margin-bottom: 88px;
+  }
+}
+
+@media  screen and (max-width: 767px) {
+  .lead__caption {
+    margin-left: 16px;
+    margin-bottom: 64px;
+  }
+}
+

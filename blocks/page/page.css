@@ -1,10 +1,45 @@
 .page {
-  font-family: 'Inter', 'Arial',sans-serif;
-  min-width: 1280px;
-  /* max-width: 1600px; */
-  margin: 0 auto;
   background: #2a2c2f;
-  color: #fff;
+  max-width: 1280px;
+  margin: 0 auto;
   font-weight: 400;
-  display: grid;
+  color: #fff;
+  font-family: 'Inter', "Arial", sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
 }
+
+/* display: grid;
+  grid-template-rows: min-content 1fr min-content; */
+
+
+
+
+  @media screen and (max-width: 1279px) {
+    .page {
+      background-color: red;
+  }
+  }
+  /* from 768px to 1023px */
+  @media screen and (max-width: 1023px) {
+    .page {
+      background-color: green;
+  }
+  }
+
+  /* from 321 px to 767px */
+  @media screen and (max-width: 767px) {
+    .page {
+      background-color: blue;
+  }
+  }
+
+  /* from 0 to 320px */
+
+
+
+
