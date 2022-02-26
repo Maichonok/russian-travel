@@ -3,12 +3,12 @@
   line-height: 20px;
   letter-spacing: 2px;
   color: #aaa;
+
 }
 
 
 @media screen and (max-width: 560px) {
   .place__url-heading {
     line-height: 12px;
-    margin-top: 0;
   }
 }

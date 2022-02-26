@@ -1,11 +1,5 @@
 .place__paragraph-container {
-  width: 50%;
-}
-
-
-@media screen and (max-width: 560px) {
-  .place__paragraph-container {
-    width: 100%;
-  }
+  margin:0;
+  padding: 0;
 }
 
