@@ -31,7 +31,6 @@
   .place {
     grid-template-columns: 100%;
     gap: 32px;
-    /* margin: 0 0 73px; */
     padding: 0;
   }
 }
